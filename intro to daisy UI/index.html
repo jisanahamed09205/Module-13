@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daisy UI Intro</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <h2>I explored tailwind</h2>
+    <h3>Now i want to see my khala, none other then daisy khala</h3>
+    <button>Click me</button>
+    <button class="btn">Click me</button>
+    <button class="btn btn-primary">Click me</button>
+
+        <button class="btn btn-active">Default</button>
+    <button class="btn btn-active btn-neutral">Neutral</button>
+    <button class="btn btn-active btn-primary">Primary</button>
+    <button class="btn btn-active btn-secondary">Secondary</button>
+    <button class="btn btn-active btn-accent">Accent</button>
+    <button class="btn btn-active btn-ghost">Ghost</button>
+    <button class="btn btn-active btn-link">Link</button>
+    <br>
+    <button class="btn glass">Glass button</button>
+
+    <!-- Accordion -->
+    <section>
+        <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" checked="checked" /> 
+            <div class="collapse-title text-xl font-medium">
+              <!-- <Translate text="Do you like Tailwind CSS?" /> -->
+              Do you like Tailwind CSS?
+            </div>
+            <div class="collapse-content"> 
+              <p>Yes I do</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" /> 
+            <div class="collapse-title text-xl font-medium">
+              <!-- <Translate text="Click to open this one and close others" /> -->
+              Is Smart phone are smart?
+            </div>
+            <div class="collapse-content"> 
+              <p>No not really smart</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" /> 
+            <div class="collapse-title text-xl font-medium">
+              <!-- <Translate text="Click to open this one and close others" /> -->
+              Where do you live?
+            </div>
+            <div class="collapse-content"> 
+              <p>March</p>
+            </div>
+          </div>
+    </section>
+    <span class="loading loading-spinner loading-lg"></span>
+
+
+    <!-- My shoes -->
+    <section>
+        <div>
+            <!-- First shoe -->
+            <div class="card w-96 bg-base-100 shadow-xl">
+                <figure><img src="/images/jacket-1.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Shoes!
+                    <div class="badge badge-secondary">NEW</div>
+                  </h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions justify-end">
+                    <div class="badge badge-outline">Fashion</div> 
+                    <div class="badge badge-outline">Products</div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!-- slider or carousel -->
+    <section>
+        <div class="carousel w-full">
+            <div id="item1" class="carousel-item w-full">
+              <img src="/images/jacket-2.png" class="w-full" />
+            </div> 
+            <div id="item2" class="carousel-item w-full">
+              <img src="/images/jacket-3.png" class="w-full" />
+            </div> 
+            <div id="item3" class="carousel-item w-full">
+              <img src="/images/jacket-4.png" class="w-full" />
+            </div> 
+            <div id="item4" class="carousel-item w-full">
+              <img src="/images/jacket-5.png" class="w-full" />
+            </div>
+          </div> 
+          <div class="flex justify-center w-full py-2 gap-2">
+            <a href="#item1" class="btn btn-xs">1</a> 
+            <a href="#item2" class="btn btn-xs">2</a> 
+            <a href="#item3" class="btn btn-xs">3</a> 
+            <a href="#item4" class="btn btn-xs">4</a>
+          </div>
+    </section>
+
+
+</body>
+</html>
